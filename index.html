@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sugalimit-anim-test</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="product-content">
+      <h1>パターン１</h1>
+      <p>無難なアニメーション</p>
+      <h2>
+        <img
+          src="img/sugalimit_fv_01.jpg"
+          alt="sugalimit"
+          width="750"
+          height="1015"
+          decoding="async"
+        />
+      </h2>
+      <p class="mainasu-01"><img src="img/ー.png" alt="マイナス" /></p>
+      <p class="ten-01"><img src="img/10.png" alt="10" /></p>
+      <p class="kiro-01"><img src="img/キロ.png" alt="キロ" /></p>
+    </section>
+
+    <section class="product-content">
+      <h1>パターン2</h1>
+      <p>ページ読み込み後に1回だけ実行すると大胆でインパクトがある</p>
+      <h2>
+        <img
+          src="img/sugalimit_fv_01.jpg"
+          alt="sugalimit"
+          width="750"
+          height="1015"
+          decoding="async"
+        />
+      </h2>
+      <p class="mainasu-02"><img src="img/ー.png" alt="マイナス" /></p>
+      <p class="ten-02"><img src="img/10.png" alt="10" /></p>
+      <p class="kiro-02"><img src="img/キロ.png" alt="キロ" /></p>
+    </section>
+
+    <section class="product-content trigger-01">
+      <h1>パターン3</h1>
+      <p>右から</p>
+      <h2>
+        <img
+          src="img/sugalimit_fv_01.jpg"
+          alt="sugalimit"
+          width="750"
+          height="1015"
+          decoding="async"
+        />
+      </h2>
+      <p class="mainasu-03"><img src="img/ー.png" alt="マイナス" /></p>
+      <p class="ten-03"><img src="img/10.png" alt="10" /></p>
+      <p class="kiro-03"><img src="img/キロ.png" alt="キロ" /></p>
+    </section>
+
+    <section class="product-content trigger-02">
+      <h1>パターン4</h1>
+      <p>スクロール連動アニメーション。appleにありがち</p>
+      <h2>
+        <img
+          src="img/sugalimit_fv_01.jpg"
+          alt="sugalimit"
+          width="750"
+          height="1015"
+          decoding="async"
+        />
+      </h2>
+      <p class="mainasu-04"><img src="img/ー.png" alt="マイナス" /></p>
+      <p class="ten-04"><img src="img/10.png" alt="10" /></p>
+      <p class="kiro-04"><img src="img/キロ.png" alt="キロ" /></p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
