@@ -22,6 +22,10 @@ img {
   margin-bottom: 96px;
   overflow: hidden;
 }
+/* 
+.product-content:not(.only) {
+  content-visibility: auto;
+} */
 
 .mainasu-01,
 .mainasu-02,

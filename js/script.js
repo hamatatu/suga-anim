@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
     animation: tl,
     trigger: ".trigger-02",
     start: "top",
-    scrub: 0.7, // .7秒遅れて追従させる
-    pin: true, // 要素を固定表示させる
-    anticipatePin: 5, // ピン留めをどのくらい早く行うかを制御
+    scrub: 0.7,
+    pin: true,
+    anticipatePin: 1,
   });
 });
